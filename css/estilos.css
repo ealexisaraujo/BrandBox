@@ -38,13 +38,11 @@ p{
 
 nav{
   display: flex;
-  background-color: var(--green-color);
-  padding: var(--space);
-  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
   min-height: 60px;
   width: auto;
+  background: var(--green-color)
 }
 
 nav a{
@@ -73,9 +71,9 @@ hr{
 
 /* Main section */
 
-.main_section {
-  padding: 15%;
+.main_section{
   text-align: center;
+  padding: 15%;
 }
 
 .products{
@@ -86,19 +84,20 @@ hr{
   display: flex;
   height: 95px;
   background-size: cover;
-
+  justify-content: center;
 }
 
 .product{
   padding: 20px;
   margin-top: -226px;
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
-.product  {
-  background-color: var(--white-color);
-  padding: 15px;
-  box-shadow: var(--box);
-}
 
 .image-product{
   text-align: center;
