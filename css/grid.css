@@ -45,5 +45,36 @@
   width: 100%;
 }
 
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  padding: 10px;
+}
+.col-1 img,.col-2 img,.col-3 img,.col-4 img,.col-5 img,.col-6 img,.col-7 img,.col-8 img,.col-9 img,.col-10 img,.col-11 img,.col-12 img{
+  width: 100%;
+}
+
+.no-desk{
+  display: none;
+}
+
+@media (max-width:600px) {
+  .container{
+    padding: 30px;
+  }
+  .no-mobile{
+    display: none
+  }
+  .no-desk{
+    display: initial;
+  }
+  .row{
+    display: inline;
+    padding: 10px;
+  }
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    width: 100%;
+    padding: 0px;
+  }
+}
+
 
 /* container > row > column */
