@@ -32,6 +32,10 @@ html,body{
   color: var(--black-color);
 }
 
+.container {
+  height: 100%;
+}
+
 p{
   font-size: var(--normal);
 }
@@ -179,12 +183,17 @@ h2.mention_title{
     margin:auto;
   }
 
-  .modulo_pago input{
+  .data{
     margin-top: var(--space);
     width: 100%;
-    height: 35px;
+    padding: 5px;
     border-radius: 2px;
     border: 1px solid var(--black-color);
+    box-sizing: border-box;
+  }
+  
+  .modulo_pago .main_btn{
+        margin-top: 10px;
   }
   
 
