@@ -1,17 +1,21 @@
 @media (max-width: 680px) {
 
+  .main_section{
+    padding: 5%;
+  }
   .products{
-    display: inherit;
+    display: block;
     height: auto;
+    padding: 5%;
   }
   .product{
     margin-top: auto;
   }
-  .main_section{
-    padding: 4%;
+  .beneficios{
+    display: initial;
   }
-  .beneficios, .mentions{
-    display: inherit;
+  .mentions{
+    display: initial;
   }
 
 
